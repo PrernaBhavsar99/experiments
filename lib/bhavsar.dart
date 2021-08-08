@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Bhavsar extends StatelessWidget {
-  const Bhavsar({ Key? key }) : super(key: key);
-
+class Columnwidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("Prerna Bhavsar"),),
-      
-    );
+        body: Container(
+            color: Colors.orange,
+            child: FlutterLogo(
+              size: 60.0,
+            )));
   }
 }
