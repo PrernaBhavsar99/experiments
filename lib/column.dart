@@ -14,12 +14,7 @@ class Columnwidget extends StatelessWidget {
               size: 60.0,
             ),
           ),
-          Container(
-            color: Colors.blue,
-            child: FlutterLogo(
-              size: 60.0,
-            ),
-          ),
+          
           Container(
             color: Colors.purple,
             child: FlutterLogo(
